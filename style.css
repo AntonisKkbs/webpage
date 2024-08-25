@@ -2,12 +2,15 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #282a36;
+    background-color: #282a36; /* Fallback color */
+    background-image: url('https://github.com/AntonisKkbs/webpage/blob/main/markus.png');
+    background-size: cover; /* Make sure the image covers the whole page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
     color: #f8f8f2;
     margin: 0;
     padding: 0;
     text-align: center;
-    padding: 50px;
 }
 
 h1 {
@@ -52,3 +55,9 @@ p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+#pdfViewer {
+    margin-top: 40px;
+    background: rgba(0, 0, 0, 0.8); /* Optional: add a semi-transparent background to make the PDF stand out */
+    padding: 20px;
+    border-radius: 10px;
+}
