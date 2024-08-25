@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     if (resumeButton) {
         resumeButton.addEventListener('click', (event) => {
             event.preventDefault(); // Prevent the default link behavior
-            window.location.href = 'resume.pdf'; // Redirect to resume.pdf
+            window.location.href = 'resume.html'; // Redirect to resume.pdf
         });
     }
 
