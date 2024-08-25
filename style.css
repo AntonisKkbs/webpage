@@ -5,7 +5,7 @@ body {
     background-color: #282a36; /* Fallback color */
     background-image: url('markus.png');
     background-size: cover; /* Make sure the image covers the whole page */
-    background-position: center; /* Center the background image */
+    background-position: cover; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
     color: #f8f8f2;
     margin: 0;
