@@ -3,7 +3,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #282a36; /* Fallback color */
-    background-image: url('https://github.com/AntonisKkbs/webpage/blob/main/markus.png');
+    background-image: url('markus.png');
     background-size: cover; /* Make sure the image covers the whole page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
