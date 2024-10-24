@@ -11,11 +11,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     }
 
-    if (resumeButton) {
-        resumeButton.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent the default link behavior
-            window.location.href = 'resume.html'; // Redirect to resume.html
-        });
     }
 
     // Hide the PDF viewer when the "Escape" key is pressed (if needed elsewhere)
